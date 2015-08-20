@@ -6,12 +6,64 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
+    
+    <!-- Submit album banner -->
     <div class="container">
         <div class="jumbotron">
             <h1>Submit Album</h1>
         </div>
     </div>
-    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!-- Collapsable region -->
+    <div class="container">
+        <div class="panel-group" id="accordian">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordian" href="#collapse-one">
+                            Accordion heading 1
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-one" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordian" href="#collapse-two">
+                            Accordion heading 2
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-two" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Morbi eget libero quis metus consectetur semper.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordian" href="#collapse-three">
+                            Accordion heading 3
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-three" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Suspendisse ullamcorper massa eget eleifend iaculis.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    
 </body>
 </html>
